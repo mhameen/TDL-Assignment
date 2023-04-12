@@ -9,6 +9,7 @@ function addElement(){
     let text = inputText.value
     newTag.innerText = text ;
     let removeText = newTag.setAttribute("onclick","removeItem(this)")
+    // console.log(removeText)
 
     toDoContainer.appendChild(newTag);
 }
