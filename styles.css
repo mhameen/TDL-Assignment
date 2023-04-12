@@ -9,7 +9,7 @@
 #to-do-container{
     border: 5px solid black;
     width: 500px;
-    height: 450px;
+    /* height: 450px; */
     text-align: center;
     margin: 90px auto;
     background-color: aquamarine;
@@ -36,4 +36,5 @@ button{
 
 p{
     margin: 10px;
+    cursor: pointer;
 }
